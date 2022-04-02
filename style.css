@@ -1,0 +1,16 @@
+body {
+    background: grey;
+}
+
+.menu_navbar {
+    background: white;
+    margin-top: auto;
+    height: 50px;
+    width: 1650px;
+    letter-spacing: 2px;
+    text-align: right;
+}
+
+.menu {
+    padding: 15px 20px;
+}
