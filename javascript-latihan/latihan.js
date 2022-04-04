@@ -1,0 +1,1 @@
+alert("Saya memanggil javascript malalui alert.js");

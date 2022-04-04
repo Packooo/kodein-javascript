@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hitung Mundur Maju</h1>
+    <button onclick="hitungMundur()">Mundur</button>
+    <button onclick="hitungMaju()">Maju</button>
+
+    <div id="hasil"></div>
+
+    <script>
+        var nilai = 0;
+
+        function hitungMundur() {
+            document.getElementById("hasil").innerHTML = nilai--;
+
+        }
+
+        function hitungMaju() {
+            document.getElementById("hasil").innerHTML = nilai++;
+
+        }
+    </script>
+
+    </div>
+
+
+</body>
+
+</html>
